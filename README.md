@@ -30,5 +30,5 @@ An AI-powered mock interview agent built using LangChain, FastAPI, Gradio, Whisp
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/ai-mock-interviewer-final.git
-   cd ai-mock-interviewer-final
+   git clone https://github.com/your-username/ai-mock-interviwer.git
+   cd ai-mock-interviewer
