@@ -1,0 +1,14 @@
+openai
+langchain==0.1.14
+langchain-openai==0.1.6
+gradio
+tiktoken
+pymupdf
+python-docx
+pyttsx3
+python-dotenv
+fastapi
+uvicorn
+langfuse
+git+https://github.com/openai/whisper.git
+elevenlabs
