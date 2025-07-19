@@ -1,6 +1,6 @@
 openai
-langchain==0.1.14
-langchain-openai==0.1.6
+langchain
+langchain-openai
 gradio
 tiktoken
 pymupdf
@@ -11,4 +11,4 @@ fastapi
 uvicorn
 langfuse
 git+https://github.com/openai/whisper.git
-elevenlabs
+elevenlabs==0.2.27

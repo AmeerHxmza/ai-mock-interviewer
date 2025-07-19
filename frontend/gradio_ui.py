@@ -22,7 +22,9 @@ with gr.Blocks(title="🎙️ AI Mock Interviewer") as demo:
     start_btn = gr.Button("🚀 Start Interview")
     start_output = gr.Textbox(label="🛠️ System Message", lines=2)
     question_box = gr.Textbox(label="🗣️ Interview Question", lines=4)
-    question_audio = gr.Audio(label="🔊 Listen to Question", interactive=False)
+    
+    # Set autoplay=True so audio plays automatically
+    question_audio = gr.Audio(label="🔊 Listen to Question", interactive=False, autoplay=True)
 
     with gr.Row():
         text_input = gr.Textbox(label="✍️ Type Your Answer")
@@ -41,6 +43,10 @@ with gr.Blocks(title="🎙️ AI Mock Interviewer") as demo:
         fn=submit_answer,
         inputs=[text_input, audio_input],
         outputs=[start_output, question_box, question_audio]
+    ).then(
+        fn=lambda: ("", None),  # clears text + audio input
+        inputs=[],
+        outputs=[text_input, audio_input]
     )
 
     restart_btn.click(

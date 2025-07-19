@@ -13,13 +13,25 @@ def speak(text, filename="question.wav"):
     engine.runAndWait()
     return filepath
 
-# from elevenlabs import set_api_key, generate
-# from elevenlabs import generate, save
+# import os
+# import tempfile
+# from elevenlabs import generate, save, set_api_key
+# from utils.config import ELEVEN_API_KEY
 
-# set_api_key(os.getenv("ELEVEN_API_KEY"))
 
-# def speak(text, filename="question.wav"):
-#     audio = generate(text=text, voice="Aria")
-#     save(audio, filename)
-#     return filename
 
+
+# print("✅ ElevenLabs works correctly!")
+
+# set_api_key(ELEVEN_API_KEY)
+
+# def speak(text, filename="question.wav", voice="Aria"):  # You can change the voice name if needed
+#     audio = generate(
+#         text=text,
+#         voice=voice,
+#         model="eleven_monolingual_v1"  # or "eleven_multilingual_v2"
+#     )
+    
+#     filepath = os.path.join(tempfile.gettempdir(), filename)
+#     save(audio, filepath)
+#     return filepath
