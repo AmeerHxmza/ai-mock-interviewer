@@ -14,7 +14,10 @@ An AI-powered mock interview agent built using LangChain, FastAPI, Gradio, Whisp
 
 ## 📺 Demo Video
 
-[![Watch the video](https://www.linkedin.com/posts/ameerhxmza_ai-openai-langchain-activity-7352279108199833600-A-EX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEcrOd8BwzTCfBM94fi0ayDJP99uR5glr74)
+[![Watch Demo](assets/demo-thumbnail.png)](https://www.linkedin.com/posts/ameerhxmza_ai-openai-langchain-activity-7352279108199833600-A-EX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEcrOd8BwzTCfBM94fi0ayDJP99uR5glr74)
+
+👉 **[Click here to watch the demo on LinkedIn](https://www.linkedin.com/posts/ameerhxmza_ai-openai-langchain-activity-7352279108199833600-A-EX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEcrOd8BwzTCfBM94fi0ayDJP99uR5glr74)**
+
 
 ## 🛠️ Tech Stack
 
